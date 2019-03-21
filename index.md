@@ -1,37 +1,97 @@
-## Welcome to GitHub Pages
+# Getting started with Orbit
 
-You can use the [editor on GitHub](https://github.com/shomilj/Vision-Documentation/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Welcome to Orbit! 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This guide will walk you through the process of creating and launching your Orbit workspace.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+## Table of Contents
 
-# Header 1
-## Header 2
-### Header 3
+[TOC]
 
-- Bulleted
-- List
+## Part 1: Setting up your spreadsheet
 
-1. Numbered
-2. List
+The first thing you'll need to do is install our Google Sheets Add-On, which is how Orbit communicates with your Google Sheet. 
 
-**Bold** and _Italic_ and `Code` text
+Install the add-on at [this link](http://bit.ly/orbitaddon). We recommend you use **Google Chrome**, but Safari or Firefox should also work well.
 
-[Link](url) and ![Image](src)
-```
+Once you install the add-on, an empty spreadsheet will open in a new tab and you'll be prompted to allow Orbit certain permissions related to your Google Account. Please refer to our [Terms of Conditions](avinalabs.com/legal) if you have questions relating how we use these permissions.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+*If you get a warning about the app not being verified: click on Advanced option towards the bottom-left of the dialog and select Go to Orbit.*
 
-### Jekyll Themes
+When the app's installed, you should see the menu for Orbit appear in the Add-ons menu.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/shomilj/Vision-Documentation/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+![Orbit Drop-Down Menu](/Users/shomil/Desktop/Screen Shot 2019-03-20 at 6.01.00 PM.png)
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+At this point, click on **"Reset to Template"** to import the Orbit template into this empty sheet. 
+
+*While Orbit is in beta, you'll see a pop-up alert with a link to a Google Form. You'll need to fill this out to request early access. Make sure to include a link to the spreadsheet that you just created when you submit the Google Form! About 2-3 minutes after you submit the form, you should be able to proceed. Click on "Reset to Template" once again.*
+
+If you see a "Welcome to Orbit" page, congratulations! You're ready to proceed. 
+
+
+
+## Part 2: Configuring your workspace
+
+At this point, you're ready to begin configuring your organization's workspace. We'll walk you through the different sheets – we strongly recommend you proceed in order!
+
+As you proceed, look out for the light-gray blocks of text: these are examples that you can use for reference.
+
+
+
+#### General
+
+First, start by entering general information about your workspace. 
+
+|                   |                  |
+| ----------------- | ---------------- |
+| Organization Name | Berkeley SkyDeck |
+| Mobile App Name   | SkyCentral       |
+| Brand Color       | `#003262`        |
+
+Next, add a few important links.
+
+| Links             |                                         |
+| ----------------- | --------------------------------------- |
+| Organization Icon | https://bit.ly/2ugwgVj                  |
+| News Feed or Blog | https://skydeck.berkeley.edu/news/      |
+| Social Media      | https://twitter.com/skydeck_cal?lang=en |
+
+Make sure your organization icon is a direct link to an image; in other words, it should download immediately if you click on it. This is generally the format for images throughout.
+
+
+
+#### Users
+
+Orbit lets you customize your workspace to display different information to different categories of users. 
+
+1. **User Type** – enter the category of users
+
+2. **Login Type** – if you want to restrict access to your app to certain email addresses, you may do so by selecting Google Sign In and continue. To make a specific user type open to anyone, select *No Restriction* and skip to the next user type.
+
+3. **Restriction Type** – you can either choose to restrict access to an approved list of users ("Restrict to List") or to users with emails in a particular domain ("Restrict to Domain").
+
+   > If you choose "Restrict to List", use the Add-On menu to insert an "Approved User" sheet. On this sheet, you'll be able to paste a list of approved emails sorted by user category.
+
+4. **Email Domain** – paste all approved email domains into this cell (comma-separated values)
+
+
+
+## Part 3: Incorporating resources
+
+#### A note about design
+
+As you're bringing together resources for your organization, think about splitting your resources into two categories:
+
+1. Items used on a day-to-day basis
+
+   > Examples: campus maps, announcements, Google Forms, directories, toolkits
+
+2. Resources used on a less-frequent basis (but still important to include)
+
+   > Examples: tech support, HR paperwork, website links, general team information, miscellaneous resources
+
+These two categories define the configuration of resources in Orbit. There's the **home page**, which contains the stuff your users need day-to-day, and there's the searchable **resources page**, which acts as a pseudo-mini Google Drive folder categorizing a bunch of different resources.
